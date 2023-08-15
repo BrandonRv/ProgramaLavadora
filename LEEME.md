@@ -4,4 +4,4 @@ el Sitema de Hidronivel Esta Gestinado Atravez de un sensor de Presion Diferenci
 tambien se uso un Display 20x4, y este se gestina a travez de interfaz I2C
 Adjuntare el esquema para el mismo Hidronivel en: Esquema para Hidronivel Digital.png
 Hare un Video Proximamente y lo Subire a mi canal de Youtube y explicare mas detalle al respecto, sobre todo el esquema electrico Completo
-por ahora solo tengo esta demostracion https://youtube.com/shorts/6Wqo55ZMTpY?feature=share
+por ahora solo tengo esta demostracion https://www.youtube.com/watch?v=-HzdV9QrZBc
