@@ -96,7 +96,7 @@ void setup() {
 
 lcd.backlight();
 lcd.setCursor(3,0); 
-lcd.print(F("FAMILIA RIVERA"));
+lcd.print(F("FAMILIA RIVERA")); // Aqui podes poner lo que se Antoje yo use mi apellido por me parecio bien xd
 lcd.setCursor(0,1);
 lcd.print(F("     BIENVENIDO   "));
 lcd.setCursor(0,2);
