@@ -175,8 +175,7 @@ case 2:
 estado1=0;
 break;
 default: 
-// if nothing else matches, do the default
-// default is optional
+//
 break;
 }
 lavado();
@@ -206,8 +205,7 @@ case 2:
 estado2=0;
 break;
 default: 
-// if nothing else matches, do the default
-// default is optional
+//
 break;
 }
 centrifugadof();
@@ -236,8 +234,7 @@ case 2:
 estado3=0;
 break;
 default: 
-// if nothing else matches, do the default
-// default is optional
+//
 break;
 }
 ciclocompleto();
@@ -295,8 +292,7 @@ case 2:
 estado4=0;
 break;
 default: 
-// if nothing else matches, do the default
-// default is optional
+//
 break;
 }
 
@@ -355,8 +351,7 @@ case 2:
 estado5=0;
 break;
 default: 
-// if nothing else matches, do the default
-// default is optional
+//
 break;
 }
 
