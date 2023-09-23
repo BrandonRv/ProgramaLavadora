@@ -405,7 +405,7 @@ void llenarAgua(unsigned long tiempo, int nivelagua) { //DOBLE SISTEMA DE SEGURI
  digitalWrite(AguaIn1, LOW);     
             
  while (((millis() - tiempollenado) < tiempo) && (kpascal < parametro  ))  {
- //while (nivel > nivelagua) {//mientras no alcance la temperatura esta activado la resistencia calentadora de agua
+ //el Llenado inicialmente esta inicializado por tiempo mientras no se cumple el tiempo esta activado el motor de llenado hasta que el sensor mpx10p sense o sea mayor al del parametro
             if(kpascal > parametro){digitalWrite(AguaIn1, HIGH);}
             kpascal = Hidronivel(val);
             parametro = nivelControl(val22);
