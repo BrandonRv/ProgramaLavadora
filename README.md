@@ -1,4 +1,4 @@
-##ProgramaLavadora
+## ProgramaLavadora
 
 Gestiona todo el mecanismo de una lavadora. El sistema de hidronivel está gestionado a través de un sensor de presión diferencial MPX2010DP. Ya que este sensor maneja una señal en milivoltios, se utilizó un OpAmp LM358P para poder manejar el rango adecuado en el Arduino a través del pin analógico A0. Este rango se mapeó en el programa. El rango de salida va desde 0V a 5V, que está en el promedio aceptable que puede manejar cómodamente el Arduino Uno o ATmega328P. También se usó un display 20x4, que se gestiona a través de la interfaz I2C.
 
